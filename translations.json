@@ -1,0 +1,38 @@
+{
+    "en": {
+        "title": "The Three Years Contract, let's go 2026!",
+        "to": "to",
+        "threeYearsContract": "the Three Years Contract",
+        "customDate": "Custom Date",
+        "days": "days",
+        "hours": "hours",
+        "minutes": "minutes",
+        "seconds": "seconds",
+        "expired": "EXPIRED",
+        "invalidDate": "Invalid Date"
+    },
+    "ch": {
+        "title": "三年之约, let's go 2026!",
+        "to": "到",
+        "threeYearsContract": "三年之约",
+        "customDate": "自定义日期",
+        "days": "天",
+        "hours": "小时",
+        "minutes": "分钟",
+        "seconds": "秒",
+        "expired": "已过期",
+        "invalidDate": "无效日期"
+    },
+    "vn": {
+        "title": "Tam niên chi ước, let's go 2026!",
+        "to": "đến",
+        "threeYearsContract": "Tam niên chi ước",
+        "customDate": "Ngày tùy chỉnh",
+        "days": "ngày",
+        "hours": "giờ",
+        "minutes": "phút",
+        "seconds": "giây",
+        "expired": "HẾT HẠN",
+        "invalidDate": "Ngày không hợp lệ"
+    }
+}
