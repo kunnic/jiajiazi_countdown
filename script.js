@@ -45,4 +45,5 @@ var x = setInterval(function() {
 function updateLanguage(language) {
     currentLanguage = language;
     document.querySelector('h1').innerText = translations[language].title;
+    document.getElementById('welcome-message').innerText = translations[language].welcomeMessage;
 }
