@@ -21,27 +21,29 @@
 </head>
 
 <body>
-    <div class="container text-center mt-5">
-        <h1 class="mb-4">
-            <b>
-                JiaJiaZi's Countdown Timer
-            </b>
-        </h1>
-        <div id="welcome-message" class="welcome-message mb-4">Welcome to the mega, ultra, super, fantastic, amazing, incredible, and stupendous "the Three Years Contract" Countdown Timer! 🎉</div>
-        <hr>
-        <p id="timer" class="mb-4"></p>
+    <div class="d-flex flex-column justify-content-center align-items-center vh-100">
+        <div class="container text-center">
+            <h1 class="mb-4">
+                <b>
+                    JiaJiaZi's Countdown Timer
+                </b>
+            </h1>
+            <div id="welcome-message" class="welcome-message mb-4">Welcome to the mega, ultra, super, fantastic, amazing, incredible, and stupendous "the Three Years Contract" Countdown Timer! 🎉</div>
+            <hr>
+            <p id="timer" class="mb-4"></p>
+        </div>
     </div>
 
-    <footer class="footer mt-auto py-3 bg-light">
-        <div class="container d-flex justify-content-between align-items-center">
-            <p class="mb-0">
+    <footer class="footer mt-auto py-3 bg-light w-100">
+        <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center px-3">
+            <p class="mb-0 text-center text-md-start">
                 <b>
                     Made with ❤️ by Kunnic
                 </b>
             </p>
-            <div>
+            <div class="mt-3 mt-md-0 text-center text-md-end">
                 <label for="language-select"><b>Language:</b></label>
-                <select id="language-select" class="form-select form-select-sm" onchange="updateLanguage(this.value)">
+                <select id="language-select" class="form-select form-select-sm d-inline-block w-auto" onchange="updateLanguage(this.value)">
                     <option value="en">English</option>
                     <option value="ch">简体中文</option>
                     <option value="vn">Tiếng Việt</option>
