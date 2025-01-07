@@ -21,18 +21,18 @@
 </head>
 
 <body>
-    <div>
-        <h1 class="text-center margin-top-200">
+    <div class="container text-center mt-5">
+        <h1 class="mb-4">
             <b>
                 JiaJiaZi's Countdown Timer
             </b>
         </h1>
-        <div id="welcome-message" class="welcome-message">Welcome to the mega, ultra, super, fantastic, amazing, incredible, and stupendous "the Three Years Contract" Countdown Timer! 🎉</div>
+        <div id="welcome-message" class="welcome-message mb-4">Welcome to the mega, ultra, super, fantastic, amazing, incredible, and stupendous "the Three Years Contract" Countdown Timer! 🎉</div>
         <hr>
-        <p id="timer" class="text-center" style="margin-bottom: 20px;"></p>
+        <p id="timer" class="mb-4"></p>
     </div>
 
-    <footer class="footer">
+    <footer class="footer mt-auto py-3 bg-light">
         <div class="container d-flex justify-content-between align-items-center">
             <p class="mb-0">
                 <b>
@@ -41,7 +41,7 @@
             </p>
             <div>
                 <label for="language-select"><b>Language:</b></label>
-                <select id="language-select" onchange="updateLanguage(this.value)">
+                <select id="language-select" class="form-select form-select-sm" onchange="updateLanguage(this.value)">
                     <option value="en">English</option>
                     <option value="ch">简体中文</option>
                     <option value="vn">Tiếng Việt</option>
